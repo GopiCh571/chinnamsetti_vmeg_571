@@ -14,7 +14,7 @@ import java.util.*;
 public class StudentGroup implements StudentArrayOperation {
 
 	private Student[] students;
-	ArrayList<Student> al=new ArrayList(Arrays.asList(students));
+	LinkedList<Student> al=new LinkedList(Arrays.asList(students));
 	
 	/**
 	 * DO NOT remove or change this constructor, it will be used during task check
